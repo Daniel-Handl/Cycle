@@ -28,7 +28,7 @@ namespace Cykli
             if (n>0)
             {
                 S += n * x / Factorial(n--);
-                Recurrent(x, n, S);
+                return Recurrent(x, n, S);
             }
             return S;
         }
